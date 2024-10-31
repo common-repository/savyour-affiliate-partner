@@ -1,0 +1,66 @@
+.afflt-stngs{
+    background-color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.afflt-stngs .form-group{
+    display:flex;
+    margin-bottom:20px;
+    position:relative;
+    align-items: center;
+}
+.afflt-stngs label{
+    width:20%;
+    color: #1d2327;
+    font-weight:500;
+}
+.afflt-stngs span.api-key{
+    color: #1d2327;
+    font-weight:500;
+}
+.afflt-stngs form{
+    margin-top:50px;
+}
+.afflt-stngs p{
+    font-size: 15px;
+}
+.afflt-stngs form input[type="text"]{
+    width:80%;
+    height: auto;
+    padding: 5px 10px;
+}
+.afflt-stngs .form-group .button{
+    position: absolute;
+    right:0px;
+    padding:5px 30px;
+    font-weight:500;
+}
+.afflt-stngs hr{
+    margin:30px 0px 30px;
+}
+.hide{
+    display:none;
+}
+.afflt-stngs .alert{
+    padding: 10px 20px;
+    position:relative;
+}
+.afflt-stngs .alert.alert-success{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.afflt-stngs .alert.alert-danger{
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.afflt-stngs .alert .close{
+    position: absolute;
+    right: 15px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #54794c;
+}
